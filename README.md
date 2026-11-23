@@ -10,8 +10,8 @@ Entry for the make.fun bounty [One Letter: Coffee or Tea](https://make.fun/bount
 
 `main.py` writes exactly one letter to `/output/entry.txt` — no word, no explanation, no punctuation — then reads the file back through `validate()` to prove it holds exactly that one letter (a single UTF-8 character, not whitespace).
 
-- Entry A (this commit): letter `A` — coffee.
-- Entry B: letter `B` — tea (later commit on the same branch).
+- Entry B (this commit): letter `B` — tea.
+- Entry A: letter `A` — coffee (earlier commit on the same branch).
 
 The bounty is judged in private blind rounds; the top 3 share the $5 prize ($2 / $2 / $1), entry is free.
 
